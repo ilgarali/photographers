@@ -1,0 +1,833 @@
+/* --------------------------- HEADER   -------------------------------------- */
+header .bg {
+
+    background-image: url(../img/mb.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+header .texts {
+
+
+    padding-top: 35vh;
+
+}
+header .texts h1,
+header .texts p {
+
+    color: #fff;
+
+}header .texts h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 86px;
+}header .texts p {
+
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* --------------------------- GETME  -------------------------------------- */
+#getme .mn {
+    display: block;
+    border: 25px solid #f4f4f4;
+    position: relative;
+    margin-top: 90px;
+
+}#getme .right-side {
+
+    position: absolute;
+    left: 50%;
+    bottom: 1%;
+    right: 5%;
+
+}
+#getme .mn .mn2 {
+    padding-left: 10px;
+    background-color: #ececec;
+    height: 400px;
+
+
+}
+#getme .mn .left-side {
+
+    display: inline-block;
+    width: 435px;
+    padding: 40px 0 0 40px;
+    text-align: left;
+
+}
+
+
+#getme .mn .left-side p {
+
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+#getme .mn .left-side h2 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    font-size: 37px;
+    margin-bottom: 30px;
+
+
+}
+
+#getme .mn .left-side a {
+
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+
+
+}
+
+#getme .mn .left-side a img {
+
+    margin-left: 70px;
+
+}
+
+#getme .mn .right-side {
+
+    display: inline-block;
+
+
+}
+
+
+#getme .mn .mn2 .right-side {
+
+    z-index: 100;
+
+}
+
+#getme .latest {
+
+    margin-top: 50px;
+
+}
+
+#getme .latest .story h3 {
+
+    font-size: 20px;
+    letter-spacing: 2px;
+
+
+}
+
+#getme .latest .story p {
+
+    font-size: 33px;
+    letter-spacing: 2px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+
+}
+
+
+#getme .latest .story-p p {
+
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding-top: 40px;
+
+}
+
+
+/* --------------------------- Discover   -------------------------------------- */
+
+#discover {
+
+    background-image: url(../img/bg.png);
+    height: 70vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    margin-top: 100px;
+
+}
+
+
+#discover .texts {
+
+    margin-top: 30vh;
+
+}
+
+#discover .texts hr {
+
+    width: 65px;
+    height: 2px;
+    background-color: #fff;
+
+}
+
+
+#discover .texts h1,
+#discover .texts p {
+
+    color: #fff;
+
+
+}
+
+#discover .texts h1 {
+
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+#discover .texts p {
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 1px;
+
+
+}
+
+/* --------------------------- Our Phtographers   -------------------------------------- */
+
+
+#ourgraphers .op {
+    margin-bottom: 40px;
+
+
+
+}
+
+
+#ourgraphers .op h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    letter-spacing: 5px;
+
+
+}
+
+
+#ourgraphers .card:hover .social {
+
+    opacity: 1;
+
+}
+
+
+#ourgraphers .card .social {
+
+    position: absolute;
+    top: 7%;
+    left: 10%;
+    width: 300px;
+
+    opacity: 0;
+    text-align: center;
+
+
+
+
+
+
+
+
+}
+
+
+#ourgraphers .card .social a {
+
+
+    color: #fff;
+
+    border-radius: 75%;
+    padding: 17px;
+    text-align: center;
+    background-color: rgba(20, 20, 20, 0.9);
+
+
+}
+
+
+#ourgraphers .card .social a:hover {
+
+
+    background: #fff;
+
+    color: rgba(20, 20, 20, 0.9);
+
+}
+
+
+/* --------------------------- Mywork  -------------------------------------- */
+
+
+#mywork {
+
+    margin-top: 100px;
+
+    background-color: #f5f5f5;
+
+}
+
+
+#mywork .myitems {
+
+    margin-top: 70px;
+    margin-bottom: 30px;
+
+}
+
+#mywork h1 {
+
+    display: inline-block;
+    margin-left: 150px;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+
+}
+
+
+
+
+#mywork ul li {
+
+    float: left;
+
+
+
+}
+
+#mywork ul li a {
+    padding-top: 20px;
+
+    color: #888 !important;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 501;
+
+
+
+
+}
+
+
+#mywork ul li a:active,
+#mywork ul li a:hover {
+
+    color: #000 !important;
+
+
+}
+
+
+
+#mywork .img-first {
+
+    margin-bottom: 25px;
+
+}
+
+
+
+
+/* --------------------------- Footer -------------------------------------- */
+
+
+
+
+
+#footer ul li a {
+
+    margin-top: 100px;
+
+    color: #888 !important;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 501;
+
+
+}
+
+#footer ul li a:hover {
+
+    color: #000 !important;
+
+
+}
+
+#footer input {
+    margin-top: 100px;
+
+    color: #888 !important;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 490;
+
+
+
+}
+
+
+#footer input {
+
+
+    padding: 12px 20px;
+    height: 36px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 121px;
+
+
+
+}
+
+
+#footer .envelope {
+
+    margin-right: 50px;
+    position: relative;
+    bottom: 21%;
+    left: 61%;
+    border: 1px solid;
+    width: 50px;
+    height: 35px;
+    background-color: #333;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#footer .envelope:hover {
+    background-color: #fff;
+    border: none;
+
+
+
+}
+
+#footer .envelope:hover i {
+
+    color: #333;
+
+}
+
+
+
+#footer .envelope i {
+
+
+    color: #fff;
+
+
+}
+
+
+
+
+footer .foot h6 {
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+    color: #888;
+
+
+}
+
+
+footer .foot .foot-soc {
+    display: inline-block;
+
+    margin-left: 600px;
+    min-width: 90px;
+
+
+}
+
+
+footer .foot .foot-soc a {
+
+    color: #888;
+    transition: 0.5s;
+
+}
+
+footer .foot .foot-soc a:hover {
+
+    color: aqua;
+
+}
+
+
+footer .foot .foot-soc i {
+
+    padding-left: 10px;
+
+}
+
+
+
+
+
+
+
+/* --------------------------- Media Quers -------------------------------------- */
+
+
+
+@media screen and (max-width: 500px) {
+
+    header .bg {
+
+        background-image: url(../img/mb.png);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 65vh;
+
+    }
+
+    header .texts {
+
+
+        padding-top: 27vh;
+
+    }
+
+    header .texts h1,
+    header .texts p {
+
+        color: #fff;
+
+    }
+
+    header .texts h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 25px;
+
+
+    }
+
+    header .texts p {
+
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+
+
+    }
+
+    /* --------------------------- Getme -------------------------------------- */
+
+
+
+
+    #getme .mn {
+
+
+        display: block;
+        border: 25px solid #f4f4f4;
+        position: relative;
+        margin-top: 90px;
+
+
+
+
+    }
+
+
+    #getme .right-side {
+
+
+        position: relative;
+        left: 5%;
+
+    }
+
+
+    #getme .mn .mn2 {
+
+
+        padding-left: 10px;
+
+        background-color: #ececec;
+        height: 400px;
+
+
+    }
+
+    #getme .mn .left-side {
+
+
+        width: 435px;
+        padding: 40px 0 0 40px;
+        text-align: left;
+        display: block;
+
+    }
+
+
+    #getme .mn .left-side p {
+
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 2px;
+        display: inline-block;
+
+    }
+
+    #getme .mn .left-side h2 {
+        font-family: 'Playfair Display', serif;
+        letter-spacing: 2px;
+        font-size: 25px;
+        margin-bottom: 30px;
+        display: inline-block;
+
+    }
+
+    #getme .mn .left-side a {
+
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 1px;
+        display: inline-block;
+
+
+    }
+
+    #getme .mn .left-side a img {
+
+        margin-left: 70px;
+
+    }
+
+    #getme .mn .right-side {
+
+        display: inline-block;
+
+
+    }
+
+
+    #getme .mn .mn2 .right-side {
+
+        z-index: 100;
+
+    }
+
+    #getme .latest {
+
+        margin-top: 50px;
+
+    }
+
+    #getme .latest .story h3 {
+
+        font-size: 15px;
+        letter-spacing: 2px;
+
+
+    }
+
+    #getme .latest .story p {
+
+        font-size: 23px;
+        letter-spacing: 2px;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+
+    }
+
+
+    #getme .latest .story-p p {
+
+        font-family: 'Playfair Display', serif;
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding-top: 40px;
+
+    }
+
+
+
+
+
+
+
+
+    /* --------------------------- Discover -------------------------------------- */
+
+
+    #discover {
+
+        background-image: url(../img/bg.png);
+        height: 50vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 100px;
+        margin-top: 100px;
+
+    }
+
+
+
+    #discover .texts {
+
+        margin-top: 10vh;
+
+    }
+
+    #discover .texts hr {
+
+        width: 35px;
+        height: 2px;
+        background-color: #fff;
+
+    }
+
+
+    #discover .texts h1,
+    #discover .texts p {
+
+        color: #fff;
+
+
+    }
+
+    #discover .texts h1 {
+
+        font-family: 'Playfair Display', serif;
+        font-weight: 900;
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+
+    #discover .texts p {
+
+        font-family: 'Montserrat', sans-serif;
+
+        font-weight: 600;
+        font-size: 12px;
+        letter-spacing: 1px; }
+
+
+
+
+
+        /* --------------------------- MyWork-------------------------------------- */
+ 
+
+
+#mywork h1 {
+
+    display: inline-block;
+    margin-left: 150px;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+
+}
+
+
+
+#mywork ul li a {
+    padding-top: 20px;
+
+    color: #888 !important;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+        /* --------------------------- Footer -------------------------------------- */
+ 
+
+#footer ul li a {
+
+    margin-top: 100px;
+
+    color: #888 !important;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+
+
+}
+
+    
+
+#footer input {
+   
+
+    color: #888 !important;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 400;
+    padding: 12px 20px;
+    height: 36px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 10px;
+
+
+}
+
+
+
+
+
+footer .foot h6 {
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+    color: #888;
+
+
+}
+
+
+footer .foot .foot-soc {
+    display: inline-block;
+
+   
+  
+
+
+}
+
+
+
+
+
+
+    }
